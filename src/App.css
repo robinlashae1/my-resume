@@ -1,38 +1,42 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#HeaderDiv{
+  background-color:#ebebeb;
+  height: 150px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#myName{
+  color: #2e2e2e;
+  font-family: 'Raleway',sans-serif;
+  font-size: 62px;
+  font-weight: 800;
+  line-height: 90px;
+  margin: 0 0 24px;
+  text-align: center;
+  text-transform: uppercase;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#myTitle{
+   color: #2e2e2e;
+   font-family:'Raleway',sans-serif;
+   font-size: 30px;
+   font-weight: 800;
+   line-height: 0px;
+   margin: 0 0 24px;
+  text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
+#ColumnDiv{
+  background-color: #a7a781;
+  width:25%;
+  margin:0 auto;
+  height: 1000px;;
+  float: left;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#MyPhoto{
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  border: 3px solid black;
+  position: absolute; 
+  top: 10px; 
+  right: 10px;
 }
